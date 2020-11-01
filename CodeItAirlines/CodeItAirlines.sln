@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeItAirlines", "CodeItAirlines\CodeItAirlines.csproj", "{0AEF79B0-CF26-4764-A4D0-C7E6C6A40AB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2545D9F4-B8E4-4604-945D-824ACDB9A574}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A2698C01-E1FE-484E-8CC6-363346AE5B79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{4183A85F-F771-4C7E-B1BF-8EC9E47B0E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeItAirLines.Domain", "CodeItAirLines.Domain\CodeItAirLines.Domain.csproj", "{ABDA8939-D798-45CC-A9A1-372DCEAF4C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeItAirLines.Data", "CodeItAirLines.Data\CodeItAirLines.Data.csproj", "{CF6ED252-EFDF-478A-A343-012976213495}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AEF79B0-CF26-4764-A4D0-C7E6C6A40AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEF79B0-CF26-4764-A4D0-C7E6C6A40AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEF79B0-CF26-4764-A4D0-C7E6C6A40AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEF79B0-CF26-4764-A4D0-C7E6C6A40AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDA8939-D798-45CC-A9A1-372DCEAF4C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDA8939-D798-45CC-A9A1-372DCEAF4C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDA8939-D798-45CC-A9A1-372DCEAF4C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDA8939-D798-45CC-A9A1-372DCEAF4C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6ED252-EFDF-478A-A343-012976213495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6ED252-EFDF-478A-A343-012976213495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6ED252-EFDF-478A-A343-012976213495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6ED252-EFDF-478A-A343-012976213495}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AEF79B0-CF26-4764-A4D0-C7E6C6A40AB4} = {2545D9F4-B8E4-4604-945D-824ACDB9A574}
+		{ABDA8939-D798-45CC-A9A1-372DCEAF4C3D} = {A2698C01-E1FE-484E-8CC6-363346AE5B79}
+		{CF6ED252-EFDF-478A-A343-012976213495} = {4183A85F-F771-4C7E-B1BF-8EC9E47B0E52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9910CA4B-D40A-4A4C-B72D-68D77C2A2C94}
+	EndGlobalSection
+EndGlobal
