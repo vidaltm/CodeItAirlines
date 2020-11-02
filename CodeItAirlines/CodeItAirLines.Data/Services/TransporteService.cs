@@ -103,7 +103,7 @@ namespace CodeItAirLines.Data.Services
             Console.WriteLine(passageiro.Nome + "("+ passageiro.TipoTripulante.ToString()+") desceu em: " + destino.Local);
 
             if(motorista != null && !ultimaViagem)
-                Console.WriteLine(motorista.Nome + "(" + passageiro.TipoTripulante.ToString() + ") voltou ao Aeroporto");
+                Console.WriteLine(motorista.Nome + "(" + motorista.TipoTripulante.ToString() + ") voltou ao Aeroporto");
         }
 
         private void ForTwo(Tripulante motorista, Tripulante passageiro)

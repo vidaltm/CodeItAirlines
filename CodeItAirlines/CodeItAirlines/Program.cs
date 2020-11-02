@@ -11,7 +11,7 @@ namespace CodeItAirlines
             TransporteService transporteService = new TransporteService(TripulanteFactory.Create(),
                 CarroFactory.Create(), LocalFactory.Create());
             Console.WriteLine("Iniciar o transporte? S / N ?");            
-            if (Console.ReadLine() == "S")
+            if (Console.ReadLine().ToUpper() == "S")
             {
                 transporteService.IniciarTransporte();
                 Console.ReadKey();
